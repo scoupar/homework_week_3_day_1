@@ -1,0 +1,56 @@
+body {
+    padding: 5px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+#logo {
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 100px;
+    margin:0
+    
+    
+
+}
+
+body > header{
+    background-color: rgb(0, 40, 63);
+    color:white;
+    padding: 5px;
+    
+}
+
+body > footer{
+    background-color: rgb(0, 40, 63);
+    text-align: center;
+    margin:0;
+    color:white
+    
+}
+
+header>nav>ul{
+    text-align:right;
+}
+
+header>nav>ul>li{
+    display:inline;
+    list-style: none;
+    
+}
+
+header>nav>ul>li>a{
+    color:white;
+}
+
+body>main{
+    width:80%;
+}
+
+textarea{
+    width:85%;
+    height: 50%;
+}
+
+
